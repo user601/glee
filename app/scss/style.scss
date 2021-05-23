@@ -2,7 +2,9 @@
 @import 'fonts';
 @import 'reset';
 @import 'global';
+
 @import 'libs';
+
 
 .header{
   
@@ -158,7 +160,9 @@ footer{
   }
   &__text{
     margin-bottom: 25px;
+
     margin-right: 110px;
+
   }
   &__form{
     display: flex;
@@ -211,13 +215,12 @@ footer{
     line-height: 12px;
     text-decoration: none;
     @extend %Rubik-400;
+
   }
 }
 .top-slider{
   
-  /*&__content{
-   
-  }*/
+ 
   &__img{
 max-width: 640px;
 max-height: 264px ;
@@ -299,6 +302,10 @@ margin-top: -73px;
       }
     }
   }
+
+    
+
+
 }
 
 
